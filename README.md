@@ -7,21 +7,21 @@ The completed end product will be a Python library that can be imported and used
 This library is still in development, however Jupyter notebooks will detail the steps to begin exploring the cost surface layers and the notebooks will be actively updated.
 
 
-**Data and Tools**
-The data that can be used for this are raster files (.tif, .asc files) of the cost surface of interest. Currently the raster file can be different numbers of rows and columns when itsimported but will either be trimmed or expanded so that the final file is the same number of rows and columns. 
+**Data and Tools**<br/>
+The data that can be used for this are raster files (.tif or .asc files) of the cost surface of interest. Currently the raster file can be different numbers of rows and columns when it is imported but will either be trimmed or expanded so that the final file is the same number of rows and columns. The animal GPS location data can also be uploaded for visualization. These files can be in .kml format.
 
-The animal GPS location data can also be uploaded for visualization. These files can be in .kml format.
+The tools that will be used for this library are:
 
-The tools that are used now or will be in the future are the following:
-
-1.) Circuitscape to produce current density maps.
-2.) GDAL to load and access the raster files and Matplotlib to visualize the map.
-3.) NumPy to manipulate the raster files as arrays.
-4.) JSAnimation to display the Matplotlib animations of dispersal.
+1.) `Circuitscape` to produce resistance surface maps.<br/>2.) `GDAL` to load and access the raster files and `Matplotlib` to visualize the map.<br/>3.) `NumPy` to manipulate the raster files as arrays.<br/>4.) `JSAnimation` to display the `Matplotlib` animations of dispersal.
 
 **Usage** 
 
-To load your Circuitscape .asc file, please follow the 1_Upload_Filter_Circuitscape notebook.
+To load and clean your Circuitscape raster file to use for simulation, please follow the 1_Upload_Filter_Circuitscape notebook.
+
+The repository is structured according to the following files:<br/>
+_Data:_ This contains the circuitscape raster file. <br/>
+_Notebooks:_ This contains the Jupyter notebooks that detail how to use the code.<br/>
+_Project:_ This contains the original project proposal. <br/>
 
 
 **Author:** Meredith VanAcker<br/>**Affiliation:** Dept. of Ecology, Evolution & Environmental Biology, Columbia University<br/>**Contact:**  mv2640@columbia.edu
