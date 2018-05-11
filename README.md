@@ -23,6 +23,13 @@ _Data:_ This contains the circuitscape raster file. <br/>
 _Notebooks:_ This contains the Jupyter notebooks that detail how to use the code.<br/>
 _Project:_ This contains the original project proposal. <br/>
 
+**Installation**
+
+1.) Install Jupyter Notebook
+2.) Clone this repository: https://github.com/mvanack/PDSB-Project.git
+2.) cd into PDSB-Project/notebooks
+3.) open Jupyter Notebook 
+
 
 **Author:** Meredith VanAcker<br/>**Affiliation:** Dept. of Ecology, Evolution & Environmental Biology, Columbia University<br/>**Contact:**  mv2640@columbia.edu
 
