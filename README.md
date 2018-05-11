@@ -25,10 +25,10 @@ _Project:_ This contains the original project proposal. <br/>
 
 **Installation**
 
-1.) Install Jupyter Notebook
-2.) Clone this repository: https://github.com/mvanack/PDSB-Project.git
-2.) cd into PDSB-Project/notebooks
-3.) open Jupyter Notebook 
+1.) Install Jupyter Notebook<br/>
+2.) Clone this repository: https://github.com/mvanack/PDSB-Project.git<br/>
+3.) cd into PDSB-Project/notebooks<br/>
+4.) open Jupyter Notebook <br/>
 
 
 **Author:** Meredith VanAcker<br/>**Affiliation:** Dept. of Ecology, Evolution & Environmental Biology, Columbia University<br/>**Contact:**  mv2640@columbia.edu
