@@ -12,7 +12,7 @@ The data that can be used for this are raster files (.tif, .asc files) of the co
 
 The animal GPS location data can also be uploaded for visualization. These files can be in .kml format.
 
-The tools that are used now or will be in the future are the followin
+The tools that are used now or will be in the future are the following:
 
 1.) Circuitscape to produce current density maps.
 2.) GDAL to load and access the raster files and Matplotlib to visualize the map.
